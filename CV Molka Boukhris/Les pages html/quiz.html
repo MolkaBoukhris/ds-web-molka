@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="..\css\quiz.css" />
+    <title>CV MOLKA BOUKHRIS</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__content">
+          <div class="nav__logo"><a href="index1.html">Molka</a></div>
+          <ul>
+            <li><a href="index1.html">Accueil</a></li>
+            <li><a href="parcours.html">Parcours </a></li>
+            <li><a href="competances.html">Compétences </a></li>
+            <li><a href="stages.html">Stages</a></li>
+            <li><a href="matieres.html">Matières</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section">
+        <div class="section__container">
+          <div class="content">
+            <form id="quiz-form">
+              <div class="quiz-container">
+                  <div class="column">
+                      <ol>
+                          <li>
+                <h2> Quel langage est principalement utilisé pour structurer le contenu d'une page web ?
+
+                </h2>
+                <label><input type="radio" name="q1" value="a"> A) CSS</label><br>
+                <label><input type="radio" name="q1" value="b"> B) JavaScript</label><br>
+                <label><input type="radio" name="q1" value="c"> C) HTML</label><br>
+                <label><input type="radio" name="q1" value="d"> D) Laragon</label>
+              </li>
+
+              <li>
+                <h2> Quel protocole est utilisé pour naviguer sur le web de manière sécurisée ?
+                </h2>
+                <label><input type="radio" name="q2" value="a"> A) FTP</label><br>
+                <label><input type="radio" name="q2" value="b"> B) HTTP</label><br>
+                <label><input type="radio" name="q2" value="c"> C) HTTPS</label><br>
+                <label><input type="radio" name="q2" value="d"> D) Java</label>
+              </li>
+            </ol>
+        </div>
+        
+        <div class="column">
+          <ol start="3">
+              <li>
+                <h2>Quelle est la plus grande planète de notre système solaire ?
+                </h2>
+                <label><input type="radio" name="q3" value="a"> A) Earth</label><br>
+                <label><input type="radio" name="q3" value="b"> B) Jupiter</label><br>
+                <label><input type="radio" name="q3" value="c"> C) Saturn</label><br>
+                <label><input type="radio" name="q3" value="d"> D) Mars</label>
+              </li>
+            </ol>
+        </div>
+    </div>
+        
+              
+              <button type="button" onclick="submitQuiz()">Valider</button>
+            </form>
+        
+            
+         
+    </main>
+    <script src="../script.js"></script>
+    <footer>
+      <section>
+        <div class="social-media">
+          <a
+            href="https://www.facebook.com/molka.boukhris"
+            class="icon facebook"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/molka__boukhris/"
+            class="icon instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/molka-boukhris-619464287/"
+            class="icon linkedin"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </section>
+      <p>&copy; Molka Boukhris</p>
+    </footer>
+  </body>
+</html>
